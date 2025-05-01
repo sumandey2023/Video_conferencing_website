@@ -27,7 +27,7 @@ app.use(express.json());
 // MongoDB Connection
 mongoose
   .connect(
-    "your_mongodb_uri", // Replace with your MongoDB URI
+    "mongodb+srv://suman:suman2023@videoconferance.awpi4xe.mongodb.net/?retryWrites=true&w=majority&appName=videoConferance", // Replace with your actual MongoDB Atlas connection string
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
